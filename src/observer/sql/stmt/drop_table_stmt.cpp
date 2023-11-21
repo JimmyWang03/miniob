@@ -1,8 +1,3 @@
-//
-// Created by NieYang on 2023/10/15.
-//
-
-
 #include "drop_table_stmt.h"
 #include "event/sql_debug.h"
 
