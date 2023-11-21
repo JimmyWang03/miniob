@@ -134,7 +134,6 @@ RC Table::drop(const char *table_name)
 { 
   RC rc = RC::SUCCESS;
   PersistHandler persistHandler;
-
   // 删除表的元数据
   std::string data_file = base_dir_ + "/" + table_name + ".data";
   std::string table_file = base_dir_ + "/" + table_name + ".table";
@@ -161,7 +160,6 @@ RC Table::drop(const char *table_name)
   }
   // 关闭record_handler
   record_handler_->close();
-
   return rc; 
 }
 
