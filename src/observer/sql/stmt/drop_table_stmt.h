@@ -1,12 +1,7 @@
-//
-// Created by NieYang.
-//
-
 #pragma once
 
 #include <string>
 #include <vector>
-
 #include "sql/stmt/stmt.h"
 
 class Db;
