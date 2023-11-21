@@ -1,9 +1,4 @@
-//
-// Created by NieYang on 2023/10/15.
-//
-
 #include "drop_table_executor.h"
-
 #include "session/session.h"
 #include "common/log/log.h"
 #include "storage/table/table.h"
